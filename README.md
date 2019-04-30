@@ -1,11 +1,15 @@
 
-# Maze Game
+# Maze Services
 
+Provides services for generating and solving mazes.
 
+## Building the Services
 
-## Getting Started
+- Type the command: `dotnet build`
 
+## Testing the Services
 
+- Type the command: `dotnet test`
 
 ## Known Issues with Implementation
 
@@ -13,5 +17,4 @@
   - **POST** `/mazes` body: { height: number, width: number } - Generates the maze and returns a Maze object with an id
   - **GET** `/mazes/{id}/solution` - Returns the solution to the maze, given the maze's id
 
-## Enhancements
 
