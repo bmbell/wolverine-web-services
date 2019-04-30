@@ -7,6 +7,11 @@ Provides services for generating and solving mazes.
 
 - Type the command: `dotnet build`
 
+## Running the Services
+
+- Open the solution in Visual Studio
+- Click on `Debug -> Start Debugging` (or press the F5 key)
+
 ## Testing the Services
 
 - Type the command: `dotnet test`
