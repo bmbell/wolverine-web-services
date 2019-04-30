@@ -1,0 +1,199 @@
+﻿
+
+.swagger-ui 
+{
+    padding-bottom: 50px;
+}
+
+
+/**************************************************************
+
+Topbar
+
+***************************************************************/
+.swagger-ui .topbar
+{
+    background-color: #000000;
+}
+
+.swagger-ui .topbar-wrapper img
+{
+    display: none;
+}
+
+.swagger-ui .topbar-wrapper span
+{
+    display: none;
+}
+
+.swagger-ui .topbar-wrapper a:after
+{
+    line-height: 50px;
+    content: "Blink Dog Studios";
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select
+{
+    border: 2px solid #41444E;
+}
+
+
+/**************************************************************
+
+Custom Authorization & ReCaptcha
+
+***************************************************************/
+
+.auth-wrapper
+{
+    align-items: center;
+}
+
+.custom-generators
+{
+    flex-grow: 1;
+    padding: 0 50px 0 0;
+}
+
+.custom-generators .recaptcha 
+{
+    margin-top: 20px;
+}
+
+.custom-generators .data-input
+{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.custom-generators .data-input:focus-within
+{
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.custom-generators .data-input input 
+{
+    flex-grow: 1;
+    border: none;
+    margin: 0;
+    padding: 0 8px 0 8px;
+    line-height: 39px;
+}
+
+.custom-generators .data-input input:focus
+{
+    outline: none;
+}
+
+.custom-generators .data-input button
+{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0;
+    border-left: 1px solid #D9D9D9;
+    color: #666666;
+    background-color: transparent;
+}
+
+/**************************************************************
+
+Modal
+
+***************************************************************/
+
+.modal 
+{
+    display: none;
+    position: fixed; 
+    z-index: 10; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content 
+{
+    height: 230px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -150px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    box-sizing: border-box;
+}
+
+.modal .close-button
+{
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+.modal .close-button:hover,
+.modal .close-button:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h1 
+{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.modal .form-inputs
+{
+    padding: 20px;
+}
+
+.modal input 
+{
+    margin: 5px 0;
+    padding: 8px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.modal .button-bar
+{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal .button-bar button
+{
+    margin: 0;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #49CC90;
+    border-color: #49CC90;
+    background-color: white;
+    cursor: pointer;
+}
+
+#status
+{
+    line-height: 26px;
+    width: 100%;
+    display: none;
+}
